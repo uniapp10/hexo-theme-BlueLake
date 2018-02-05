@@ -4,9 +4,9 @@
 
 一个简洁轻量化的响应式[Hexo](https://hexo.io/)博客主题。
 
-- [点击预览](http://chaoo.oschina.io/)
+- [点击预览](http://unicoinapp.top/)
 
-[![BlueLake template preview](http://obzf7z93c.bkt.clouddn.com/themeBlueLake.png "BlueLake template preview")](http://chaoo.oschina.io/)
+使用
 
 ## 安装
 
@@ -59,9 +59,9 @@ menu:
   - page: about
     directory: about/
     icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
+  - page: rss #顶部订阅栏目，注销不显示
+    directory: atom.xml
+    icon: fa-rss 
 
 # Sidebar
 widgets:
@@ -126,26 +126,6 @@ baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 1006843030519956000
 show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.
 widgets_on_small_screens: true ## Set to true to enable widgets on small screens.
 busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
-
-# About page
-about:
-  photo_url: ## Your photo e.g. http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg
-  items:
-  - label: email
-    url: ## Your email with mailto: e.g.  mailto:zhenggchaoo@gmail.com
-    title: ## Your email e.g.  zhenggchaoo@gmail.com
-  - label: github
-    url: ## Your github'url e.g.  https://github.com/chaooo
-    title: ## Your github'name e.g.  chaooo
-  - label: weibo
-    url: ## Your weibo's url e.g.  http://weibo.com/zhengchaooo
-    title: ## Your weibo's name e.g.  秋过冬漫长
-  - label: twitter
-    url:
-    title:
-  - label: facebook
-    url:
-    title:
 
 # Friend link
 links:
@@ -218,27 +198,22 @@ about:
   photo_url: ## Your photo e.g. http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg
   items:
   - label: email
-    icon: fa-email
-    url: ## Your email with mailto: e.g.  mailto:zhenggchaoo@gmail.com
-    title: ## Your email e.g.  zhenggchaoo@gmail.com
+    url: ## Your email with mailto: e.g.  mailto:isadev@gmail.com
+    title: ## Your email e.g.  isadev@gmail.com
   - label: github
-    icon: fa-github
-    url: ## Your github'url e.g.  https://github.com/chaooo
-    title: ## Your github'name e.g.  chaooo
+    url: ## Your github'url e.g.  https://github.com/uniapp10
+    title: ## Your github'name e.g.  uniapp
   - label: weibo
-    icon: fa-weibo
-    url: ## Your weibo's url e.g.  http://weibo.com/zhengchaooo
-    title: ## Your weibo's name e.g.  秋过冬漫长
+    url: ## Your weibo's url e.g.  https://weibo.com/u/1663986567
+    title: ## Your weibo's name e.g.  uniapp
   - label: twitter
-    icon: fa-twitter
     url:
     title:
   - label: facebook
-    icon: fa-facebook
     url:
     title:
 ```
-[点击预览About页面](http://chaoo.oschina.io/about/)
+[点击预览About页面](http://unicoinapp.top/about/)
 
 #### 代码语法高亮
 请在hexo目录的“hexo/_config.yml”中设置“highlight”选项，如下所示：
