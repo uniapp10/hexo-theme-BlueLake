@@ -4,9 +4,9 @@
 
 一个简洁轻量化的响应式[Hexo](https://hexo.io/)博客主题。
 
+### 效果
 - [点击预览](http://unicoinapp.top/)
 
-使用
 
 ## 安装
 
