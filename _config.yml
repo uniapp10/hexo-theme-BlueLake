@@ -126,3 +126,5 @@ links:
     url: http://www.example2.com/
   - title: site-name3
     url: http://www.example3.com/
+
+theme: jekyll-theme-cayman
